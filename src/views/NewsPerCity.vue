@@ -11,6 +11,8 @@
 
 import NewsList from '@/components/NewsList.vue'
 import TopMenu from '@/components/TopMenu.vue'
+import config from '../../vue.config.js'
+
 export default {
     name: 'NewsPerCity',
     data: function() {
@@ -25,7 +27,7 @@ export default {
     created: function() {
         let self = this;
         let request = new XMLHttpRequest();
-        request.open("GET", "/links.json");
+        request.open("GET", config.baseUrl + "links.json");
         request.send();
         request.onreadystatechange = function() {
             if (this.readyState == 4) {
