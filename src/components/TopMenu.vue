@@ -10,7 +10,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
             <input 
-                v-bind:value="search" 
+                v-bind:value="searchText"
                 v-on="listeners" 
                 class="form-control mr-sm-2" 
                 type="search" 
@@ -23,6 +23,11 @@
 <script>
 export default {
     name: "TopMenu",
+    data: function() {
+        return {
+            searchText: this.search
+        }
+    },
     props: {
         search: {
             type: String,
@@ -36,7 +41,7 @@ export default {
                 ...this.$listeners,
                 input: function (event) {
                     self.$emit('input', event.target.value);
-                    self.search = event.target.value;
+                    self.searchText = event.target.value;
                 }
             }
         }

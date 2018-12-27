@@ -40,7 +40,6 @@ export default {
                 if (! item.city.toLowerCase().includes(this.$route.params.city.toLowerCase())) {
                     itemOk = false;
                 }
-                console.log(this.searchText.toLowerCase());
                 if (! item.title.toLowerCase().includes(this.searchText.toLowerCase())) {
                     itemOk = false;
                 }
