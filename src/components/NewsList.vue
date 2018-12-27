@@ -6,7 +6,7 @@
                     <h5><a style="color: #007bff;" target="_blank" v-bind:href="item.url">{{ item.title }}</a></h5>
                     <div class="links">
                     <router-link class="badge badge-info" :to="{name: 'city', params: {city: item.city}}">{{ item.city }}</router-link>
-                    <a href="#" class="badge badge-light">{{ item.region }}</a>
+                    <router-link class="badge badge-light" :to="{name: 'region', params: {region: item.region }}">{{ item.region }}</router-link >
                     </div>
                 </div>
             </div>
@@ -36,6 +36,6 @@ export default {
     margin-left:5px;
 }
 #newsLinks {
-    margin-top: 25px;
+    margin-top: 18px;
 }
 </style>
