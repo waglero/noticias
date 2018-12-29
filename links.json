@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Infonet",
+        "url": "https://infonet.com.br/",
+        "city": "Aracaju",
+        "state": "Sergipe",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Jornal da Cidade",
+        "url": "http://www.jornaldacidade.net/",
+        "city": "Aracaju",
+        "state": "Sergipe",
+        "region": "Nordeste"
+    },
+    {
+        "title": "A8 SE",
+        "url": "https://a8se.com/",
+        "city": "Aracaju",
+        "state": "Sergipe",
+        "region": "Nordeste"
+    },
+    {
+        "title": "SE Notícias",
+        "url": "https://senoticias.com.br/se/",
+        "city": "Aracaju",
+        "state": "Sergipe",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Alagoas 24 Horas",
+        "url": "http://www.alagoas24horas.com.br/",
+        "city": "Maceió",
+        "state": "Alagoas",
+        "region": "Nordeste"
+    },
+    {
+        "title": "TNH1",
+        "url": "https://www.tnh1.com.br/",
+        "city": "Maceió",
+        "state": "Alagoas",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Cada minuto",
+        "url": "https://www.cadaminuto.com.br/",
+        "city": "Maceió",
+        "state": "Alagoas",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Bahia Notícias",
+        "url": "https://www.bahianoticias.com.br/",
+        "city": "Salvador",
+        "state": "Bahia",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Correio 24 Horas",
+        "url": "correio24horas.com.br",
+        "city": "Salvador",
+        "state": "Bahia",
+        "region": "Nordeste"
+    }
+]
