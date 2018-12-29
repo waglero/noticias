@@ -51,6 +51,7 @@ export default {
 
 <style>
 .navbar {
-    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    font-weight: 700;
 }
 </style>

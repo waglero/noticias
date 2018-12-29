@@ -52,3 +52,10 @@ export default {
     }
 }
 </script>
+
+<style>
+    h1 {
+        color: #343a40;
+        font-weight: 700;
+    }
+</style>

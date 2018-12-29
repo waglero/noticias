@@ -47,5 +47,19 @@
         "city": "Maceió",
         "state": "Alagoas",
         "region": "Nordeste"
+    },
+    {
+        "title": "Bahia Notícias",
+        "url": "https://www.bahianoticias.com.br/",
+        "city": "Salvador",
+        "state": "Bahia",
+        "region": "Nordeste"
+    },
+    {
+        "title": "Correio 24 Horas",
+        "url": "correio24horas.com.br",
+        "city": "Salvador",
+        "state": "Bahia",
+        "region": "Nordeste"
     }
 ]
